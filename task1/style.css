@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+*{
+    font-family: "Lexend",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: url("img/BG.png") no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+    
+}
+.container{
+    margin: 0 auto;
+    border: 1px solid #000;
+    width: 686px;
+    height: 391px;
+    background: rgba(17, 26, 40, 1);
+    
+}
+.header__logo{
+    margin: 20px 0px 0px 20px;
+}
+.section__img{
+    margin-top: 65px;
+
+}
+.list__item1{
+    border: 0px solid rgb(255, 255, 255);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: rgba(31, 39, 63, 1);
+   margin-left: 3px;  
+}
+.list__item1:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+.list__item2{
+    border: 0px solid rgb(255, 255, 255);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 1);
+    margin-left: 3px;
+}
+.list__item2:hover{
+border: 1px solid rgb(255, 255, 255);
+}
+.list__item3{
+    border: 0px solid rgb(255, 255, 255);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: rgba(237, 51, 51, 1);
+    margin-left: 3px;
+}
+.list__item3:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+.list__item4{
+    border: 0px solid rgb(255, 255, 255);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: rgba(41, 227, 234, 1);
+    margin-left: 3px;
+}
+.list__item4:hover{
+border: 1px solid rgb(255, 255, 255);
+}
+.list{
+    margin-top: 65px;
+    margin-left: 145px;
+    list-style-type: none;
+    display: flex;
+}
+.section{
+    width: 220px;
+}
+.content1{
+    width: 55%;
+    float: left;
+}
+.content2{
+    width: 35%;
+    float: left;
+    margin-left: 60px;
+}
+.list-select_items{
+    font-family: Museo Sans Rounded;
+font-size: 14px;
+font-style: normal;
+line-height: 17px;
+color: #e1e1e1;
+border: 1px solid rgba(76, 82, 90, 0.26);
+background: rgba(17, 26, 40, 1);
+width: 69px;
+height: 32px;
+margin-top: 30px;
+}
+.btn{
+    color: rgba(225, 225, 225, 1);
+border: 1px solid rgba(76, 82, 90, 0.26);
+background:rgba(76, 82, 90, 0.26);
+width: 184px;
+height: 40px;
+margin-top: 30px;
+font-size: 14px;
+font-style: normal;
+line-height: 17px;
+}
+.section__subtitle{
+    color: rgba(225, 225, 225, 0.54);
+font-size: 14px;
+font-style: normal;
+font-weight: 250;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.section__title{
+    color: rgba(225, 225, 225, 1);
+    line-height: 26px;
+    font-size: 24px;
+    font-style: normal;
+}
+.icon__star{
+    margin-top: 10px;
+}
